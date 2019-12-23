@@ -1,4 +1,5 @@
 import XCTest
+import SwiftUI
 @testable import ScaledFont
 
 final class ScaledFontTests: XCTestCase {
@@ -6,7 +7,6 @@ final class ScaledFontTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        
     }
 
     static var allTests = [

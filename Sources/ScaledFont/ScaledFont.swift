@@ -16,7 +16,7 @@ struct ScaledFont: ViewModifier {
 
 @available(iOS 13, macCatalyst 13, tvOS 13, watchOS 6, macOS 10.15, *)
 extension View {
-    func scaledFont(name: String, size: CGFloat) -> some View {
+    func scaledFont(_ name: String, size: CGFloat) -> some View {
         return self.modifier(ScaledFont(name: name, size: size))
     }
 }
